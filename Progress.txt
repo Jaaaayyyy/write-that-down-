@@ -1,0 +1,32 @@
+
+Ensure previous state changing works (From cancelling creating to previous state) - DONE 
+
+Attempt to create a "Fake note for now" - DONE 
+
+Display the notes - DONE 
+
+18 December
+
+Work on Filtering the notes so can display whichever. - DONE
+
+Filter all properly. - DONE
+
+Add count for sidebar buttons - DONE
+
+MORE OPTIONS MAKE DELETE AND MOVE WORK. DONE
+
+EDIT NOTE/CREATE NOTE DONE
+
+RECOVER FROM TRASH OPTION DONE
+
+CUSTOM FOLDER DON'T DISPLAY THE NOTE.  - FIXED
+
+Confirmation for perma delete DONE
+
+DELETE CUSTOM FOLDER, move all notes to trash and folder disappear. When note recovered change it to ALL - DONE
+
+Things to finish up on: 
+
+Sometimes note editor shows although i clicked somewhere else. Flow: Create new note -> Click on any folder type. 
+
+Beautifying 
