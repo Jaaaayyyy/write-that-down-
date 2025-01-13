@@ -225,37 +225,11 @@ function LandingPage() {
     handleCloseDeleteNoteDialog();
   };
 
-  // For Deleting the entire folder
-  // const handleDeleteFolder = (folderName) => {
-  //   // Move all notes in the folder to trash
-  //   notes.forEach((note) => {
-  //     if (note.folderFolderType === folderName) {
-  //       handleUpdateNote(note.id, { folderFolderType: "trash" });
-  //     }
-  //   });
-
-  //   // Remove the folder from custom folders
-  //   const updatedFolders = customFolders.filter((folder) => folder.name !== folderName);
-
-  //   // Update state and localStorage for folders
-  //   setCustomFolders(updatedFolders);
-  //   localStorage.setItem("folders", JSON.stringify(updatedFolders));
-
-  //   // Once folder deleted, re-click on All Notes
-  //   if (selectedFolderType === folderName) {
-  //     setSelectedFolderType("all");
-  //     setNoteListTitle("All Notes");
-
-  //     if (allNotesButtonRef.current) {
-  //       allNotesButtonRef.current.click();
-  //     }
-  //   }
-  // };
   const handleDeleteFolder = (folderName) => {
     // Batch update notes to move all notes in the folder to trash
     const updatedNotes = notes.map((note) => {
       if (note.folderFolderType === folderName) {
-        return { ...note, folderFolderType: "trash" }; // Update folderFolderType to "trash"
+        return { ...note, folderFolderType: "trash" }; 
       }
       return note;
     });
