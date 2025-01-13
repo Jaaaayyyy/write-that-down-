@@ -266,7 +266,7 @@ function LandingPage() {
   const deleteFolderConfirm = () => {
     handleDeleteFolder(selectedFolderType);
     handleCloseDeleteFolderDialog();
-    setSelectedFolderType("all"); // Reset folderType to "all" after deletion
+    setSelectedFolderType("all");
   };
 
   return (
